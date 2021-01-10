@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+.app {
+    font-family: 'Frank Ruhl Libre', serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.search {
+    background-color: rgba(92, 255, 165, 0.837);
+    width: 350px;
+    height: 70px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+.search input {
+    margin-top: 15px;
+    font-size: 170%;
+    cursor: pointer;
+}
+.contacts {
+    width: 350px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: rgb(255, 250, 92);
+    text-align: center;
+    font-size: 120%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.contact p {
+    margin: 0px;
+}
+.gender {
+    width: 70px;
+    height: 70px;
+}
+.name {
+    font-weight: bold;
+    font-size: 130%;
+}
