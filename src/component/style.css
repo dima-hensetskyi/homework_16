@@ -4,13 +4,18 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 500px;
+    margin: auto;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.165);
 }
 .search {
-    background-color: rgba(92, 255, 165, 0.837);
+    background-color: rgb(42, 237, 130);
     width: 350px;
     height: 70px;
     margin: 10px 0px 0px 0px;
     text-align: center;
+    border-radius: 10px;
 }
 .search input {
     margin-top: 15px;
@@ -42,4 +47,41 @@
 .name {
     font-weight: bold;
     font-size: 130%;
+}
+.genderPanel {
+    width: 350px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42, 237, 130);
+    margin: 5px 10px 10px 10px;
+    border-radius: 10px;
+    padding: 2px;
+}
+.genderPanel button {
+    font-size: 170%;
+    width: 120px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+}
+.genderPanel  button:hover {
+    transition: all 300ms ease;
+    background-color: white;
+    font-size: 180%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.genderChecked {
+    background-color: rgb(255, 250, 92);
+}
+.genderUnchecked {
+    background-color: white;
+    border: none;
 }
